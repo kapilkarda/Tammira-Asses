@@ -7,10 +7,9 @@ export const SplashScreen = ({ navigation }) => {
         navigation.navigate('HomeScreen');
     }, 2000)
 
-
     return (
         <View style={styles.container}>
-            <Text style={styles.textHello}>Hello Redux</Text>
+            <Text style={styles.textHello}>Welcome !</Text>
         </View>
     )
 }
@@ -23,11 +22,8 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center'
     },
-    logo: {
-        width: 100,
-        height: 100
-    },
     textHello: {
-        fontSize: 20
+        fontSize: 30,
+        fontWeight:'bold'
     }
 })
